@@ -1,8 +1,6 @@
 # mcp-agent
 
-Build effective agents with [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) using simple, composable patterns.
-
-**Version:** 0.2.6 · **Python:** ≥ 3.10 · **License:** Apache 2.0
+Build effective agents with [Model Context Protocol (MCP)]
 
 ---
 
@@ -331,9 +329,6 @@ asyncio and Temporal share the same API surface via the decorator registry. Code
 
 When an agent connects to multiple MCP servers, tool names are prefixed with the server name (e.g., `filesystem_read_file`, `fetch_get`). This prevents collisions and makes the origin of each tool explicit in LLM tool-call logs.
 
-### Python Version Floor
-
-Requires Python ≥ 3.10 for `match`/`case`, `ParamSpec`, and `TypeAlias` used throughout the type system.
 
 ### Optional Dependencies
 
